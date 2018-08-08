@@ -1,7 +1,10 @@
 # ArduinoSerialAnalogWires
 Connect some wires and see stuff happen!
+[![ko-fi](https://www.ko-fi.com/img/donate_sm.png)](https://ko-fi.com/R6R3HDMB)
 ## How to?
 Download the project file or copy this code straight to the ide:
+
+
 ```arduino
 int analogPin = 0;     // Where to connect the first end of the wire
 int val = 0;         // The variable to store if the wire is connected
