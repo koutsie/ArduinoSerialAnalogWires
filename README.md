@@ -6,8 +6,10 @@ Connect some wires and see stuff happen!
 ## How to?
 Download the project file or copy the code straight to your ide!
 
+After starting up the ide, connect your arduino and start the serial monitor.
+Now, take a wire and connect it to the *ground* and the other end to *analog in 1*.
 
-
+Have fun with this extremely simple peace of code ment to be a school demo!
 --------
 ```c++
 long randNumber;
