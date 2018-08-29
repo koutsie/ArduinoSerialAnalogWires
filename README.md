@@ -35,36 +35,36 @@ void loop()
   val = analogRead(analogPin); // if we dont get a solid analog input well just call it a day
   if (val > 0) {
 
-          val = analogRead(analogPin);
-            lastval = analogRead(analogPin);
-                Serial.println("\n");
-            Serial.println("Please connect the cables :3");
+          val = analogRead(analogPin); // we store the output of analogRead from pin 0
+            lastval = analogRead(analogPin); // we save the value for a second
+                Serial.println("\n"); // we print a newline
+            Serial.println("Please connect the cables :3"); // and we prompt to connect the cables
 
 
             
-            Serial.print("Analog reports: ");
-            Serial.print(val);
-            Serial.println("!");
-            Serial.println("\n");
+            Serial.print("Analog reports: "); // lets print what the analog reports just for fun
+            Serial.print(val); // we print (val) wich is analogRead 0´s value
+            Serial.println("!"); // why not?
+            Serial.println("\n"); // and a newline
 
 
 
             
-            digitalWrite(LED_BUILTIN, HIGH);
+            digitalWrite(LED_BUILTIN, HIGH); // flash
             delay(111);
-            digitalWrite(LED_BUILTIN, LOW);
+            digitalWrite(LED_BUILTIN, LOW); // the 
             delay(111);
-            digitalWrite(LED_BUILTIN, HIGH);
+            digitalWrite(LED_BUILTIN, HIGH); // damn 
             delay(111);
-            digitalWrite(LED_BUILTIN, LOW);
+            digitalWrite(LED_BUILTIN, LOW); // lights
             delay(111);
-            digitalWrite(LED_BUILTIN, HIGH);
+            digitalWrite(LED_BUILTIN, HIGH); // faster 
             delay(111);
-            digitalWrite(LED_BUILTIN, LOW);
+            digitalWrite(LED_BUILTIN, LOW); // than 
             delay(111);
-            digitalWrite(LED_BUILTIN, HIGH);
+            digitalWrite(LED_BUILTIN, HIGH); // light
             delay(111);
-            digitalWrite(LED_BUILTIN, LOW);
+            digitalWrite(LED_BUILTIN, LOW); // dammit
             delay(111);
             digitalWrite(LED_BUILTIN, HIGH);
             delay(111);
@@ -145,5 +145,4 @@ void loop()
 
 
 // This all for a school demo. Maybe.
-// Yes i know i shoud do this and that and while and loops, stop it.
 ```
