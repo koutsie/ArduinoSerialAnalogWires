@@ -1,5 +1,6 @@
 # ArduinoSerialAnalogWires
 Connect some wires and see stuff happen!
+[![Discord](https://img.shields.io/discord/350604330673373185.svg)](https://discord.koutsie.eu/)
 ------
 [![ko-fi](https://www.ko-fi.com/img/donate_sm.png)](https://ko-fi.com/R6R3HDMB)
 
